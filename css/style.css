@@ -1,0 +1,228 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Quicksand', sans-serif; 
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section Start*/
+.header-section{
+	width: 100%;
+	background: url("../img/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .main-manu{
+    overflow: hidden;
+    background-color: #294e81;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-section .bg-light {
+    background-color: transparent!important;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    padding: 0px 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.header-section .icon .fa {
+    font-size: 16px;
+    color: #fff;
+    padding: 0px 10px;
+}
+.header-section .banner{
+    padding: 80px 0px;
+    text-align: center;
+}
+.header-section .banner  h2 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 158px;
+    font-size: 60px;
+    font-weight: 600;
+}
+.header-section .banner p {
+    font-size: 14px;
+    font-weight: 300;
+     margin-top: 14px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.header-section .banner img {
+    margin-top: 253px;
+}
+/*header-section End*/
+
+/*  pricing Start   */
+.pricing {
+    width: 100%;
+    background: #f5f6f7;
+    padding: 35px 0px;
+}
+
+.pricing label {
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333333;
+}
+.pricing .btn {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #aa9b77;
+    border: 1px solid #aa9b77;
+    color: #fff;
+    border: 1px solid #;
+    margin-left: 340px;
+    transition: 1s;
+}
+.pricing .btn:hover,.pricing .btn:focus{
+	color: #aa9b77;
+	background: transparent;
+}
+/*  pricing End*/
+/*  man  Start  */
+.man {
+    width: 100%;
+    padding: 40px 0px 70px;
+    background: #fff;
+}
+.text {
+    text-align: right;
+    margin-right: 140px;
+    color: #aa9b77;
+}
+.text h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.text p {
+    font-size: 14px;
+    font-weight: 900;
+}
+.man .man-top h5 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424242;
+}
+.man .divider {
+    width: 90%;
+    height: 2px;
+    background: #cccccc;
+    margin: -20px 80px;
+}
+
+.title {
+   
+    margin-left: 140px;
+    color: #aa9b77;
+}
+.title h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+.title p {
+    font-size: 14px;
+    font-weight: 900;
+}
+.man-us:hover{
+	background:#f5f6f7;
+	border: 3px solid #aa9b77; 
+}
+/*man End*/
+.about{
+	width: 100%;
+	padding: 80px 0px 0px;
+
+
+}
+.about-us {
+    padding: 80px 0px;
+    text-align: center;
+    background: #aa9b77;
+}
+.about-us h2 {
+    color: #837659;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: inline-block;
+    background: #aa9b77;
+    padding-left: 12px;
+    padding-right: 32px;
+}
+.about-us p {
+    border: 2px solid #918363;
+    padding: 30px;
+    color: #424242;
+    margin: -24px 305px;
+}
+
+ .top-footer{
+	width: 100%;
+	padding: 20px 0px;
+	background: #535253;
+}
+.top-footer .fa {
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0px 90px;
+}
+
+.top-footer .fa span {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0px 60px;
+}
+
+.main-footer{
+	width: 100%;
+	background: #424242;
+}
+.main-footer .footer-us{
+	width: 100%;
+	padding: 80px 0px;
+}
+.main-footer .footer-us h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-footer .footer-us p {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+.main-footer .footer-us h5 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+.main-footer .footer-us h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 27px;
+    color: #fff;
+}

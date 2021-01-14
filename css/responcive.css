@@ -1,0 +1,261 @@
+
+/*For Mobile device*/
+
+@media (min-width: 320px) and (max-width: 480px){
+	/*Media quere Start*/
+	/*header-section start*/
+
+.header-section .banner {
+    padding: 0px;
+    text-align: center;
+}
+.navbar-light .navbar-toggler {
+    color: yellow;
+    border-color: yellow;
+    background: yellow;
+}
+.header-section .banner h2 {
+    color: #fff;
+    letter-spacing: 3px;
+     margin-top: 0px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.header-section .banner p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 2px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.header-section .banner img {
+    margin-top: -15px;
+}
+.header-section .banner {
+    margin: 66px 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+    /*header-section End*/
+    /*  pricing  Start*/
+.pricing {
+    padding: 5px;
+}
+.pricing-us {
+    margin-left: 35px;
+}
+.pricing .btn {
+    margin: 10px 0px;
+    padding: 5px 10px;
+    margin-left: 88px;
+}
+/*  pricing End*/
+
+/*  man  Start  */
+.man {
+    width: 100%;
+    padding: 30px 0px 50px;
+    background: #fff;
+}
+.man .man-top h5 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424242;
+}
+.man .divider {
+    width: 64%;
+    height: 2px;
+    background: #cccccc;
+    margin: -20px 80px;
+}
+
+  /*  man End   */
+   .about-us p {
+    border: 2px solid #918363;
+    padding: 30px;
+    color: #424242;
+    margin: -26px 5px -3px;
+}
+.top-footer .fa {
+    font-size: 33px;
+    font-weight: 700;
+    padding: 0px 11px;
+}
+.main-footer .footer-us {
+    width: 100%;
+    padding: 14px 0px;
+}
+   /*Media quere End*/
+}
+
+/*For Teblet device*/
+
+@media (min-width: 481px) and (max-width: 767px){
+   /*Media quere Start*/
+   /*header-section start*/
+ .header-section .banner {
+    margin: 66px 0px;
+    padding: 0px;
+    text-align: center;
+}
+  .header-section .main-manu{
+
+  }
+.navbar-light .navbar-toggler {
+    color: yellow;
+    border-color: yellow;
+    background: yellow;
+}
+.header-section .banner h2 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 0px;
+    font-size: 48px;
+    font-weight: 600;
+}
+.header-section .banner p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.header-section .banner img {
+    margin-top: -16px;
+}
+
+   /*header-section end*/
+
+   /*  pricing Start   */
+.pricing {
+    padding: 10px;
+}
+.pricing-us {
+    margin-left: 90px;
+}
+.pricing .btn {
+    margin: 12px 0px;
+    margin-left: 127px;
+}
+/*  pricing End   */
+
+/*  man  Start  */
+.man {
+    width: 100%;
+    padding: 30px 0px 50px;
+    background: #fff;
+}
+.man .man-top h5 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424242;
+}
+.man .divider {
+    width: 74%;
+    height: 2px;
+    background: #cccccc;
+    margin: -20px 80px;
+}
+ /*  man End   */
+.about-us p {
+    border: 2px solid #918363;
+    padding: 32px;
+    color: #424242;
+    margin: -27px 16px -4px;
+}
+.top-footer .fa {
+    font-size: 33px;
+    font-weight: 700;
+    padding: 0px 11px;
+}
+.main-footer .footer-us {
+    width: 100%;
+    padding: 14px 0px;
+}
+
+
+/*Media quere End*/
+}
+
+/*For Ipad device*/
+
+@media (min-width: 768px) and (max-width: 1024px){
+   /*Media quere Start*/
+   /*header-section start*/
+ .header-section .banner {
+    padding: 0px;
+    text-align: center;
+    margin: 62px 0px;
+}
+    .header-section .banner h2 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-top: 5px;
+    font-size: 60px;
+    font-weight: 600;
+   }
+ .header-section .banner img {
+    margin-top: -14px;
+}
+   .navbar-light .navbar-toggler {
+    color: yellow;
+    border-color: yellow;
+    background: yellow;
+}
+
+  /*header-section end*/
+ /*  pricing  Start*/
+.pricing {
+    padding: 14px;
+}
+.pricing-us {
+    margin-left: 87px;
+}
+.pricing .btn {
+    margin: 12px 0px;
+    margin-left: 127px;
+}
+
+
+  /*  pricing End*/
+
+  /*  man  Start  */
+.man {
+    width: 100%;
+    padding: 40px 0px 70px;
+    background: #fff;
+}
+.man .man-top h5 {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #424242;
+}
+.man .divider {
+    width: 90%;
+    height: 2px;
+    background: #cccccc;
+    margin: -20px 80px;
+}
+  /*  man End   */
+.about-us p {
+    border: 2px solid #918363;
+    padding: 31px;
+    color: #424242;
+    margin: -26px 67px -3px;
+}
+.top-footer .fa {
+    font-size: 33px;
+    font-weight: 700;
+    padding: 0px 11px;
+}
+.main-footer .footer-us {
+    width: 100%;
+    padding: 14px 0px;
+}
+
+   /*Media quere End*/
+}
